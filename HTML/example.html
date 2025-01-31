@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Basic HTML structure example with text formatting">
+    <title>HTML Tags Example</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Home Section</h2>
+        <p>This is the <em>home</em> section of the webpage. Here, you can find an example of <strong>bold text</strong> and <i>italic text</i>.</p>
+        <p><a href="https://www.example.com" target="_blank">Visit Example.com</a></p>
+        <img src="image.jpg" alt="Example Image" width="300">
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <article>
+            <h3>Our Mission</h3>
+            <p>We aim to make the web a <u>better</u> place. We focus on creating <mark>highlighted</mark> content for our users.</p>
+        </article>
+        <article>
+            <h3>Our Team</h3>
+            <ul>
+                <li><b>John Doe</b> - <i>CEO</i></li>
+                <li><b>Jane Smith</b> - <i>Designer</i></li>
+                <li><b>Mark Johnson</b> - <i>Developer</i></li>
+            </ul>
+        </article>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to <a href="mailto:info@example.com"><strong>email us</strong></a>.</p>
+        <form action="/submit" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <textarea id="message" name="message" placeholder="Your message" rows="4" cols="50"></textarea><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 My Website. All Rights Reserved.</p>
+        <address>
+            Contact us at <a href="mailto:info@example.com">info@example.com</a>
+        </address>
+    </footer>
+
+</body>
+</html>
